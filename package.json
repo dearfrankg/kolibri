@@ -1,0 +1,13 @@
+{
+  "name": "kolibri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start process.yml",
+    "stop": "pm2 delete kolibri"
+  },
+  "keywords": [],
+  "author": "Frank Gutierrez <npm.frankg@gmail.com>",
+  "license": "MIT"
+}

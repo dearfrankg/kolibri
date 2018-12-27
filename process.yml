@@ -1,0 +1,8 @@
+apps:
+  - script: /Users/frankg/.pyenv/versions/3.5.1/Python.framework/Versions/3.5/bin/kolibri
+    args: start
+    exec_interpreter: python3
+    interpreter_args: m
+    instances: 1
+    exec_mode: fork
+    watch  : false
